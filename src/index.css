@@ -1,11 +1,69 @@
 body {
-  margin: 0;
-  font-family: monaco;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: monaco;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: black;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+#title, #description {
+    color: #CCFF00;
+}
+
+#title {
+    /* margin-top: 20px; */
+}
+
+#description {
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 25px 50px 20px 50px;
+    background-color: #CCFF00;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: turquoise;
+}
+
+#tooltip-container {
+    display: block;
+    float: left;
+}
+
+#tooltip {
+    visibility: hidden;
+    width: 500px;
+    min-height: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    color: white;
+}
+
+#legend-container {
+    display: block;
+    float: right;
+}
+
+#legend {
+    width: 700px;
+    min-height: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+
+#container {
+    width: 1200px;
+    min-height: 180px;
+    margin: 0 auto;
+    position: relative;
 }
